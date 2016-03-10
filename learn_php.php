@@ -20,18 +20,11 @@
       in $cityAddress</br>
 EOD;
 
-      // incrementing counter
       $randNum = 5 . "<br>";
-      echo $randNum; // returns 5
-      echo "++randNum = " . ++$randNum . "<br>"; // returns 5
-      echo "++randNum = " . ++$randNum . "<br>"; // returns 5
-      echo "++randNum = " . ++$randNum . "<br>"; // returns 5
-      echo $randNum; // returns 5
-      echo "randNum++ = " . $randNum++ . "<br>"; // returns 5
-      echo "randNum++ = " . $randNum++ . "<br>"; // returns 5
-      echo "randNum++ = " . $randNum++ . "<br>"; // returns 5
-      echo $randNum; // returns 5
-      // not sure of the reason why
+      $refToNum = &$randNum; // $refToNum references $randNum = 5 and then to 100 on the next line
+      echo '$refToNum = ' . $refToNum; // reports $refToNum which is 5, the &$randNum
+      $randNum = 100; // $randNum assigned 100
+      echo '$refToNum = ' . $refToNum; // reports $refToNum which is 100, the &$randNum
 
      ?>
   </body>
