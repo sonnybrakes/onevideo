@@ -22,11 +22,8 @@ EOD;
 
       echo $str;
 
-      echo "<br> 5 + 2 = " . (5 + 2); // addition
-      echo "<br> 5 - 2 = " . (5 - 2); // subtraction
-      echo "<br> 5 * 2 = " . (5 * 2); // multiplication
-      echo "<br> 5 / 2 = " . (integer)(5 / 2); // returns the whole number, no remainder
-      echo "<br> 5 % 2 = " . (5 % 2) . "<br>"; // modulus operator returns the remainder from division
+      echo "<br> 5 + 2 = " . (string)(5 + 2); // outputs a string, not an integer
+      echo "<br> 5 / 2 = " . (double)(5 / 2) . "<br>"; // returns a floating point (decimal) number
      ?>
   </body>
 </html>
