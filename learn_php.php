@@ -21,9 +21,9 @@
 EOD;
 
       $randNum = 5;
-      echo ($randNum *= 7) . "<br>"; // outputs 35 to the screen
-      echo ($randNum *= 7) . "<br>"; // outputs 245 to the screen
-      // 5 * 7 = 32; 35 * 7 = 245
+      echo ($randNum /= 7) . "<br>"; // outputs 0.71 to the screen
+      echo ($randNum /= 7) . "<br>"; // outputs 0.10 to the screen
+      // 5 / 7 = 0.71; 0.71 / 7 = 0.10
      ?>
   </body>
 </html>
