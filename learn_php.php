@@ -25,7 +25,7 @@ EOD;
       echo "<br> 5 + 2 = " . (5 + 2); // addition
       echo "<br> 5 - 2 = " . (5 - 2); // subtraction
       echo "<br> 5 * 2 = " . (5 * 2); // multiplication
-      echo "<br> 5 / 2 = " . (5 / 2); // division, returns a float/double
+      echo "<br> 5 / 2 = " . (integer)(5 / 2); // returns the whole number, no remainder
       echo "<br> 5 % 2 = " . (5 % 2) . "<br>"; // modulus operator returns the remainder from division
      ?>
   </body>
