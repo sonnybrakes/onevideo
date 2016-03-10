@@ -22,9 +22,11 @@ EOD;
 
       echo $str;
 
-// CONSTANTS are always uppercase
-  define('PI', 3.1415926);
-  echo "The value of PI: " . PI;
+      echo "<br> 5 + 2 = " . (5 + 2); // addition
+      echo "<br> 5 - 2 = " . (5 - 2); // subtraction
+      echo "<br> 5 * 2 = " . (5 * 2); // multiplication
+      echo "<br> 5 / 2 = " . (5 / 2); // division, returns a float/double
+      echo "<br> 5 % 2 = " . (5 % 2) . "<br>"; // modulus operator returns the remainder from division
      ?>
   </body>
 </html>
