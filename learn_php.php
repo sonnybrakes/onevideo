@@ -20,10 +20,12 @@
       in $cityAddress</br>
 EOD;
 
+      // incrementing counter
       $randNum = 5;
-      echo ($randNum %= 7) . "<br>"; // outputs 5 to the screen
-      echo ($randNum %= 7) . "<br>"; // outputs 5 to the screen
-      // 5 / 7 = 5; 5 / 7 = 5 in this example the remainder is always going to be 5
+      echo "++randNum = " . ++$randNum . "<br>";
+      echo "randNum++ = " . $randNum++ . "<br>";
+      echo $randNum;
+      // this need further attention for me to understand
 
      ?>
   </body>
