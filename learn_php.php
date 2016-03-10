@@ -22,17 +22,9 @@ EOD;
 
       echo $str;
 
-
-/* data types are automatically assigned to variables
-  a. Integers : Whole Numbers
-  b. Floats : Decimal Numbers, aka double
-  c. String : Strings or characters
-  d. Boolean : true or false
-  e. Array : Multiple Items
-  f. Object : A Object defined by a class
-  g. Null : default value assigned to empty variables
-  */
-
+// CONSTANTS are always uppercase
+  define('PI', 3.1415926);
+  echo "The value of PI: " . PI;
      ?>
   </body>
 </html>
