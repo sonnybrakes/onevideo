@@ -5,8 +5,8 @@
   <body>
     <?php
 
-      echo "<h2>Data Processed</>\n"; // double quotation + \n vs.
-      
+      echo "<h2>Data Processed</h2>";
+
      ?>
   </body>
 </html>
