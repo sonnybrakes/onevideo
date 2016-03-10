@@ -22,8 +22,8 @@ EOD;
 
       // incrementing counter
       $randNum = 5;
-      echo "++randNum = " . ++$randNum . "<br>";
-      echo "randNum++ = " . $randNum++ . "<br>";
+      echo "++randNum = " . ++$randNum . "<br>"; // this line adds 1 to the $randNum and the reports 6
+      echo "randNum++ = " . $randNum++ . "<br>"; // this line takes the $randNum and then adds 1 then reports 6
       echo $randNum;
       // this need further attention for me to understand
 
