@@ -5,22 +5,33 @@
   <body>
     <?php
 
-      date_default_timezone_set('UTC');
-      echo date('h:i:s:u: a, l F jS Y e');
+      $usersName = $_POST['username'];
+      $streetAddress = $_POST['streetaddress'];
+      $cityAddress = $_POST['cityaddress'];
 
-  /*  h : 12 hr format
-      H : 24 hr format
-      i : Minutes
-      s : Seconds
-      u : Microseconds
-      a : Lowercase am or pm
-      l : Full text for the date
-      F : Full text for the month
-      j : Day of the month
-      S : Suffix for the day st, nd, rd, etc.
-      Y : 4 digit year
-      e : UTC
-    * /
+      echo $usersName . "<br>";
+      echo $streetAddress . "<br>";
+      echo $cityAddress . "<br>";
+
+      $str = <<<EOD
+      The customers name is
+      $usersName and they
+      live at $streetAddress
+      in $cityAddress</br>
+EOD;
+
+      echo $str;
+
+
+/* data types are automatically assigned to variables
+  a. Integers : Whole Numbers
+  b. Floats : Decimal Numbers, aka double
+  c. String : Strings or characters
+  d. Boolean : true or false
+  e. Array : Multiple Items
+  f. Object : A Object defined by a class
+  g. Null : default value assigned to empty variables
+  */
 
      ?>
   </body>
