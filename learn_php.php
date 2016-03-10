@@ -19,6 +19,7 @@
       j : Day of the month
       S : Suffix for the day st, nd, rd, etc.
       Y : 4 digit year
+      e : UTC 
     * /
 
      ?>
