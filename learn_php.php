@@ -21,11 +21,11 @@
 EOD;
 
       $randNum = 5;
-      echo ($randNum += 7) . "<br>"; // outputs 12 to the screen
-      echo ($randNum += 7) . "<br>"; // outputs 19 to the screen
-      echo ($randNum += 7) . "<br>"; // outputs 26 to the screen
-      echo ($randNum += 7) . "<br>"; // outputs 33 to the screen
-      // 7 + 5 = 12; 12 + 7 = 19; 19 + 7 = 26; 26 + 7 = 33
+      echo ($randNum -= 7) . "<br>"; // outputs -2 to the screen
+      echo ($randNum -= 7) . "<br>"; // outputs -9 to the screen
+      echo ($randNum -= 7) . "<br>"; // outputs -16 to the screen
+      echo ($randNum -= 7) . "<br>"; // outputs -23 to the screen
+      // 5 - 7 = -2; -2 - 7 = -9; -9 - 7 = -16; -6 - 7 = -23
      ?>
   </body>
 </html>
